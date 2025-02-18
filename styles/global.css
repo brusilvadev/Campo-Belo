@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --green: #4CAF50;
+    --orange: #FF9800;
+    --white: #ffffff;
+    --dark_green: #388E3C;
+    --tangerine: #FFB74D;
+    --gray: #F5F5F5;
+}
+
+html{
+    font-family: "Raleway", serif;
+    font-weight: 500;
+}
