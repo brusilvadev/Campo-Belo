@@ -55,3 +55,30 @@
 .hero img{
     width: 100%;
 }
+
+.benefits{
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-card{
+    flex: 1;
+    display: flex;
+    gap: 1rem; 
+}
+
+.benefits-card span{
+    background-color: var(--tangerine);
+    padding: 10px;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+
+.benefits-card div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

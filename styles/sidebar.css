@@ -1,0 +1,115 @@
+.sidebar{
+    position: fixed;
+    background-color: #f1f1f1;
+    top: 0;
+    right: -500px;
+    height: 100%;
+    width: 500px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    transition: right 0.5s ease;
+
+    gap: 1.5rem;
+}
+
+
+.sidebar header{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.total-container{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.total-content{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+
+.finalizarButton{
+    width: 100%;
+    background-color: var(--orange);
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    text-align: center;
+    transition: all 1s ease;
+
+    &:hover{
+
+        opacity: 0.9;
+    }
+}
+
+.closeButton{
+    background-color: transparent;
+    border: none;
+}
+
+
+.sidebar.open {
+    right: 0;
+}
+
+.product-card-mini{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.product-card-mini-container{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.product-card-mini-container > img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.action-container{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.7rem;
+    margin-top: auto;
+}
+
+.action-container button{
+    background-color: transparent;
+    font-size: 0.7rem;
+    border: none;
+
+    &:hover{
+        opacity: 0.9;
+    }
+
+}
+
+.product-info .tag{
+    font-size: 0.7rem;
+    color: var(--orange);
+}
+
+#remove-button img{
+    width: 0.7rem;
+}
