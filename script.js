@@ -180,6 +180,7 @@ function atualizarItensCarrinho() {
                             <p>Qtd. ${item.quantity}</p>
                             <button id="remove-button" onclick="removeItem(${item.id})"><img src="assets/icons/trash.svg" alt="">Remover</button>
                         </div>
+                        <h4>R$ ${(item.quantity * item.price).toFixed(2)}</h4>
                     </div>
 
                 </div>
